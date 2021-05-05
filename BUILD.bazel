@@ -1,0 +1,7 @@
+#
+# Go BUILD file generator
+#
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix example.com
+gazelle(name = "gazelle")
